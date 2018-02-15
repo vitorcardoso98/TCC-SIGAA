@@ -1,0 +1,9 @@
+Dúvidas e observações - Sprint 1
+
+Sendo o Electron uma tecnologia que se baseia no Node JS, é necessário que eu também estude o Node JS?
+
+Quais partes da documentação do Electron devo focar meus estudos para desenvolver o projeto?
+
+Implementei um código que envia informações entre páginas, porém só consegui  enviar apenas uma informação. 
+Para esse código utilizei os métodos: ipcRenderer.send(); ipcMain.on(); e ipcRenderer.on(); 
+sendo assim, como faço para enviar uma lista com as informações dos campos de uma página para ser exibida em outra página?
