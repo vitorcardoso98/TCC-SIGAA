@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Parâmetros</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+	
+	<body>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th scope="col">Código</th>  
+					<th scope="col">Descrição</th>
+					<th scope="col">Valor</th>
+				</tr>
+			</thead>
+			<tbody>
+				<% print.forEach(function (param) { %>
+					<tr> 
+						<td><%= param.codigo %></td>  
+						<td><%= param.descricao %></td>
+						<td><%= param.valor %></td>
+						<td><a class="btn btn-primary" href="/parametros/<%=param.codigo%>">Editar</a></td>
+						<td><a class="btn btn-primary" href="/apagar/<%=param.codigo%>">Apagar</a></td>
+					</tr>
+				<% }) %>
+			</tbody>
+		</table>
+		<a class="btn btn-primary" href="/cadastrarParametros">Novo</a>
+	</body>
+</html>
