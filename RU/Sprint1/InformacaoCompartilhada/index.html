@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Página Principal</title>
+    </head>
+    <body>
+        <p>Olá, Digite seu nome no campo abaixo</p>
+        <input type="text" id="nome" value="Digite seu nome"/>
+        <input type="button" id="btn" value="Enviar" />
+
+        <script>
+            const { ipcRenderer } = require('electron');
+
+            document.getElementById("btn").addEventListener("click", () => {
+                
+                let Data = {
+                    message: document.getElementById("nome").value,
+                    backgroundColor: "black",
+                    color: 'white'
+                };
+				
+                ipcRenderer.send('atualiza-label-pagina-secundaria', Data);
+            }, false);
+        </script>
+    </body>
+</html>

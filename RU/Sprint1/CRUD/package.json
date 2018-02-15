@@ -1,0 +1,8 @@
+{
+	"name": "CRUD",
+	"version": "1.0.0",
+	"main": "main.js",
+	"devDependencies": {
+		"mysql": "^2.15.0"
+	}
+}
