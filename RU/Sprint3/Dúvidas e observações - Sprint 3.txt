@@ -1,0 +1,27 @@
+Dúvidas e observações - Sprint 3
+
+Na Sprint 3 foram realizadas as seguintes atividades:
+    
+    - Implentação da Tela Principal com os menus da aplicação
+        *Para a implementação das telas foi utilizado HTML, CSS e Bootstrap juntamente com o Electron
+    
+    - Implementação da tela de utilitários
+    
+    - CRUD da funcionalidade de parâmetros
+        *No Back-end utilizou-se:
+            - Express para criação das rotas da aplicação
+            - Node JS 
+            - Base de dados MySQL
+            - EJS para transferência de informações entre o Express e o as views da aplicação
+
+
+    - Foram realizadas modificações na Sketch proposta na Sprint2. As modificações foram feitas com base nas melhorias sugeridas pelo
+      cliente
+          *Melhorias
+             - Renderizar menu "internamente" + botão de voltar 
+             - Mensagem em forma de popup para o aluno que teve a refeição do dia 
+             - Período inicial e final no relatório
+Observações
+    - A utilização do Electron no Front-end dificulta a criação das telas da aplicação
+    - Escreve-se muito e tem-se pouca produção
+   
