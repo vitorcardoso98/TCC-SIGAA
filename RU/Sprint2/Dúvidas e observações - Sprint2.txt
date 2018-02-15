@@ -1,0 +1,31 @@
+Dúvidas e observações - Sprint 2
+
+Na Sprint 2 foi proposto:
+
+    - Esboço de interface gráfica e implementação da Sketch onde é possivel ter uma visão da disposição das telas e funcionaliadades
+      do Software para controle do Restaurante universitário.
+
+    - Desenvolvimento da arquitetura do software mediante Diagrama de caso de uso onde é possível ter uma visão dos atores, 
+      funiconalidades e relacionamentos entre ambos.
+
+    - Quanto a arquitetura foi sugerido uma nova funcionalidade. A funcionalidade consiste do aluno Bolsista PROAE e Casos especias
+      avaliarem aspectos do R.U e fornecer esse Feedback aos gestores do sistema para que os mesmos tenham condições de realizar 
+      melhorias, seja no funcionamento, cardápio, fluxo etc.
+
+Melhorias propostas
+
+    - A interface foi pensada de forma que o usuário clique e digite a menor quanitidade de vezes possível visando ganho de tempo 
+      e produtividade.
+
+    - Foi proposto um menu diferente do que é utilizado no Software atual. O menu contempla conceitos flat design.
+
+    - Os formulários e botões propostos agregam melhorias pautadas na simplicidade, por acreditar que o "menos é mais", principalmente
+      em um contexto onde o tempo é um fator extremamente importante.
+
+    - Na tela de controle de consumo foi adicionada a opção de marcação entre almoço e jantar. (Atendendo a uma demanda do cliente)
+
+Dúvidas
+
+    - Não ficou claro qual o papel do Usuário do tipo Admin_RU  
+
+  
