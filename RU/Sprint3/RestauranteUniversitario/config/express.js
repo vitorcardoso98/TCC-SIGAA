@@ -36,7 +36,11 @@ module.exports = function(){
 	
 	app.get('/cadastrarParametros', function(req,res){
 		res.render('cadastraParametros');
-	});	
+	});
+
+	app.get('/inicio', function(req,res){
+		res.render('index');
+	});
 	
 	var obj = {};
 	app.get('/parametros', function(req, res){
