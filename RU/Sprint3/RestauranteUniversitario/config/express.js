@@ -1,6 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-const mysql = require('mysql');
+var mysql = require('mysql');
+var path    = require("path");
 
 const connection = mysql.createConnection({
   host: '127.0.0.1',
@@ -36,10 +37,6 @@ module.exports = function(){
 	
 	app.get('/cadastrarParametros', function(req,res){
 		res.render('cadastraParametros');
-	});
-
-	app.get('/inicio', function(req,res){
-		res.render('index');
 	});
 	
 	var obj = {};
