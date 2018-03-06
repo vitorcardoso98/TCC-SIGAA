@@ -1,0 +1,29 @@
+Dúvidas e observações - Sprint 4
+
+Na Sprint 4 foram realizadas as seguintes atividades:
+
+	- Configuração de um servidor de banco local. Para essa atividade foi utilizada a ferramemta XAMPP.
+	- Construção de rotas para a implementação de CRUDs. As rotas foram construídas utilizando o Vraptor 3.5.
+	- Implementação do CRUD bolsistas.
+	- Implementação do CRUD parâmetros. Esse CRUD já tinha sido desenvolvido na Sprint 3 utilizando Node JS, mas devido
+	  a mudança nas tecnologias utilizadas no projeto o CRUD foi implementado novamente.
+	- Implementação de interfaces para aplicação.
+
+Observações:
+
+	- Não foi utilizado o Vraptor 4 devido à algumas inconsistências.
+	- A interface implementada até agora não é definitivamente a interface final da aplicação. As telas até o momento
+	  implementadas são para fornecer uma visualização mais agradável às funcionalidades já desenvolvidas.
+	- No CRUD de bolsista ainda não foi implementado a busca de informações no SIGAA.
+
+Tecnologias e Ferramentas Utilizadas
+
+	- Linguagem de programação Java
+	- Vraptor 3.5
+ 	- JPA
+	- Hibernate
+	- MySQL
+	- Materialize
+	- XAMPP
+	- Eclipse IDE
+	- Apache Tomcat
