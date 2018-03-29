@@ -1,0 +1,9 @@
+Dúvidas e observações Sprint 5
+
+        Na Sprint 5 foi desenvolvido o modelo entidade relacionamento com base no escopo do projeto RU.
+
+Dúvidas
+
+        É preciso implementar entidades que representem os relatórios do sistema.
+        
+       
