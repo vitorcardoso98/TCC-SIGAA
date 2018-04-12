@@ -1,9 +1,11 @@
 Dúvidas e observações Sprint 5
 
-        Na Sprint 5 foi desenvolvido o modelo entidade relacionamento com base no escopo do projeto RU.
+        Na Sprint 5 foi desenvolvido o modelo entidade relacionamento com base nos requisitos levantandos.
+	
+	SQL gerado de acordo com MER.
 
 Dúvidas
 
-        É preciso implementar entidades que representem os relatórios do sistema.
+        É preciso implementar entidades que representem os relatórios do sistema?
         
        
