@@ -8,6 +8,7 @@ Aprimoramento do Módulo de Restaurante Universitário: atualizar o módulo exis
   <li><a href="https://github.com/vitorcardoso98/TCC-SIGAA/tree/master/RU/Sprint2"> Sprint 2 </a></li>
   <li><a href="https://github.com/vitorcardoso98/TCC-SIGAA/tree/master/RU/Sprint3"> Sprint 3 </a></li>
   <li><a href="https://github.com/vitorcardoso98/TCC-SIGAA/tree/master/RU/Sprint4"> Sprint 4 </a></li>
+  <li><a href="https://github.com/vitorcardoso98/TCC-SIGAA/tree/master/RU/Sprint5"> Sprint 5 </a></li>
 </ul>
 
 <h2>Subindo a versão estável do projeto</h2>
