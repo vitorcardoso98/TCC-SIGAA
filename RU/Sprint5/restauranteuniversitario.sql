@@ -56,6 +56,17 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
+-- Table `mydb`.`Usuario`
+-- -----------------------------------------------------
+CREATE  TABLE IF NOT EXISTS `mydb`.`Usuario` (
+  `codigo` INT NOT NULL AUTO_INCREMENT ,
+  `tipo` VARCHAR(15) NULL ,
+  PRIMARY KEY (`codigo`) ,
+  UNIQUE INDEX `codigo_UNIQUE` (`codigo` ASC) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
 -- Table `mydb`.`Refeicao`
 -- -----------------------------------------------------
 CREATE  TABLE IF NOT EXISTS `mydb`.`Refeicao` (
@@ -63,27 +74,14 @@ CREATE  TABLE IF NOT EXISTS `mydb`.`Refeicao` (
   `valor` DECIMAL(5,2) NULL ,
   `valorUFERSA` DECIMAL(5,2) NULL ,
   `total` DECIMAL(5,2) NULL ,
-  `matriculaBolsista` INT NULL ,
-  `matriculaCasoEspecial` INT NULL ,
-  `idGestor` INT NULL ,
+  `data` DATETIME NULL ,
+  `idUsuario` INT NOT NULL ,
   PRIMARY KEY (`idRefeicao`) ,
   UNIQUE INDEX `idRefeicao_UNIQUE` (`idRefeicao` ASC) ,
-  INDEX `matriculaBosista_idx` (`matriculaBolsista` ASC) ,
-  INDEX `matriculaCasoEspecial_idx` (`matriculaCasoEspecial` ASC) ,
-  INDEX `idGestor_idx` (`idGestor` ASC) ,
-  CONSTRAINT `matriculaBosista`
-    FOREIGN KEY (`matriculaBolsista` )
-    REFERENCES `mydb`.`Bolsistas` (`matricula` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `matriculaCasoEspecial`
-    FOREIGN KEY (`matriculaCasoEspecial` )
-    REFERENCES `mydb`.`Casos_especiais` (`matricula` )
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `idGestor`
-    FOREIGN KEY (`idGestor` )
-    REFERENCES `mydb`.`Gestores` (`id` )
+  INDEX `idUsuario_idx` (`idUsuario` ASC) ,
+  CONSTRAINT `idUsuario`
+    FOREIGN KEY (`idUsuario` )
+    REFERENCES `mydb`.`Usuario` (`codigo` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
