@@ -11,5 +11,5 @@ Aprimoramento do Módulo de Restaurante Universitário: atualizar o módulo exis
   <li><a href="https://github.com/vitorcardoso98/TCC-SIGAA/tree/master/RU/Sprint5"> Sprint 5 </a></li>
 </ul>
 
-<h2>A versão estável do projeto mais recente pode ser acessada e testada no link abaixo</h2>
-<a href="https://webru-ufersa.herokuapp.com/">WebRU - UUFERSA</>
+<h2>A versão estável do projeto pode ser acessada e testada no link abaixo</h2>
+<a href="https://webru-ufersa.herokuapp.com/">WebRU - UFERSA</>
